@@ -1,0 +1,66 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+artifacts/
+publish/
+
+# Rider
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# NuGet
+packages/
+*.nupkg
+project.lock.json
+
+# Dotnet
+*.db
+*.db-journal
+*.sqlite
+*.log
+
+# IIS Express
+IISExpress/
+
+# User secrets and local settings
+secrets.json
+local.settings.json
+appsettings.*.Secret.json
+.env
+
+# Rider / ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Others
+node_modules/
+
+# Ignore published output
+publish/
+
+# Optional: ignore JetBrains Rider caches
+.idea/
+
+# Ignore coverage and test results
+coverage/
+TestResults/
+
+# Ignore package directories
+.vs-packages/
+
+# End of file
